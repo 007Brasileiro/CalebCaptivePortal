@@ -7,3 +7,5 @@ Originalmente De https://github.com/OxMarco
 (Versão Em Portugues)
 
 Visitar Link Do OxMarco Caso Queira A Versão Original
+
+OxMarco Dono Oficial Do Script. 
