@@ -1,11 +1,7 @@
 # CalebCaptivePortal
 ESP8266 Captive Portal Em Portugues (BR)
-Originalmente De https://github.com/OxMarco
 
-(Atualizado Para Portugues Brasileiro)
+Versão Inglesa De Oxmarco
 
-(Versão Em Portugues)
+Algumas Coisas Modificadas.
 
-Visitar Link Do OxMarco Caso Queira A Versão Original
-
-OxMarco Dono Oficial Do Script. 
