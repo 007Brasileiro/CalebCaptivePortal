@@ -1,7 +1,3 @@
-Claro, aqui está um exemplo de código de conduta do GitHub para o seu produto:
-
-Código de Conduta do Hack de Wi-Fi
-
 O objetivo deste código de conduta é fornecer diretrizes para os usuários do código de hack de Wi-Fi, a fim de promover a ética e a responsabilidade em suas atividades.
 
 1. Respeito
