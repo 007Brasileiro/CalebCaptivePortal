@@ -13,9 +13,9 @@ Clique no botão verde "Code" e depois em "Download ZIP" para baixar o repositó
 
 Após o download, extraia todos os arquivos da pasta ZIP em uma nova pasta, com o nome de sua preferência.
 
-Abra a pasta que você acabou de criar e navegue até o arquivo "CalebCaptivePortal.ino".
+Abra a pasta que você acabou de criar e navegue até o arquivo "CalebCaptivePortal.ino", Após isso carregue o em Arduino e depois carregue o na placa ESP8266.
 
-Clique duas vezes no arquivo "CalebCaptivePortal" para abrir o projeto em seu navegador.
+Abra o Wifi Criado e Depois Vá no IP Do Aparelho e Coloque /admin
 
 Pronto! Agora você pode testar o projeto em seu navegador e verificar como ele funciona. Caso tenha alguma dúvida ou dificuldade durante o processo, sinta-se à vontade para entrar em contato comigo para que eu possa ajudá-lo.
 
