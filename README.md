@@ -17,6 +17,8 @@ Abra a pasta que você acabou de criar e navegue até o arquivo "CalebCaptivePor
 
 Abra o Wifi Criado e Depois Vá no IP Do Aparelho e Coloque /admin
 
-Pronto! Agora você pode testar o projeto em seu navegador e verificar como ele funciona. Caso tenha alguma dúvida ou dificuldade durante o processo, sinta-se à vontade para entrar em contato comigo para que eu possa ajudá-lo.
+Pronto! 
 
-Depois Poderá Compilar Em Seu ESP8266
+CODIGO LICENCIADO MIT - PROIBIDO CÓPIA DO PROJETO
+
+FEITO POR CALEB LIMA 🥇
